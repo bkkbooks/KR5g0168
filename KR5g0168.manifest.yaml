@@ -1,0 +1,65 @@
+canonical_identifier: bkk:krp/KR5g0168/v1
+canonical_location: https://kanripo.org/bkk/KR5g0168/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 上清丹景道精隱地八術經
+  identifiers:
+    alt_id:
+    - DZ1359
+  date: '2015-08-29 02:59:29.447132'
+  source:
+    repository: kanripo
+    path: KR5g0168
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    WYG: http://img.kanripo.org/general/skqs/wyg/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+  base_edition: HFL
+  edition:
+    short: bkk
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+editions:
+- short: HFL
+  label: 【正統道藏・涵芬樓版】
+- short: ZTDZ
+  label: 【正統道藏・三家本】
+- short: SJB
+assets:
+  parts:
+  - {seq: 0, filename: KR5g0168_000.yaml, hash: 'sha256:097164ff1d0392baceedf0069f638f3aeb792ee1cf8c7346c02cd00d5d97a26b'}
+  - {seq: 1, filename: KR5g0168_001.yaml, hash: 'sha256:8cef86310fc96047eef89cc77f1d82ed5d5dc9c4da4fa435f0d032c4b44b17f8'}
+  - {seq: 2, filename: KR5g0168_002.yaml, hash: 'sha256:bdd76518c8801e5147e85d172774c1a4a43b2f9201a00fb163849281eace85ee'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR5g0168_001.markers.yaml, hash: 'sha256:cb22a2a039a33b4e23d94ca7ff915e57e6e30785c936e388cf648b7f20b48a3b'}
+  - {seq: 2, role: markers, filename: assets/KR5g0168_002.markers.yaml, hash: 'sha256:1b2f15b3bb4991fa80d51064b45938ab183d4a43b505d56264188a02c7e0d2d0'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR5g0168_HFL_001-001a
+    span:
+    - body
+    - 0
+    - 2458
+  label: juan 001
+  type: section
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR5g0168_HFL_002-001a
+    span:
+    - body
+    - 0
+    - 2006
+  label: juan 002
+  type: section
+  level: 1
+hash: sha256:f8c11e4d32239203d074af7ce839508959707e48fcd835928998605a2ddd4b1f
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e

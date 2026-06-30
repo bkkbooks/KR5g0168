@@ -1,0 +1,24 @@
+canonical_identifier: bkk:krp/KR5g0168/krp/v1/juan/0
+seq: 0
+front:
+  text: ''
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+body:
+  text: ''
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 上清丹景道精隱地八術經
+  edition:
+    short: krp
+  base_edition: HFL
+  date: '2015-08-29 02:59:29.447132'
+  source:
+    repository: kanripo
+    path: KR5g0168/KR5g0168_000.txt
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    WYG: http://img.kanripo.org/general/skqs/wyg/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+hash: sha256:097164ff1d0392baceedf0069f638f3aeb792ee1cf8c7346c02cd00d5d97a26b
