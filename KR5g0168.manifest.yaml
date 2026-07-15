@@ -2,7 +2,7 @@ canonical_identifier: bkk:krp/KR5g0168/v1
 canonical_location: https://kanripo.org/bkk/KR5g0168/v1
 canonical_set:
   identifier: bkk:charset/cjk-v1
-  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+  hash: sha256:37995e65f5e6cdc8cfbc980fea50ec86663e3e7de950809f7e37f003754b3227
 metadata:
   title: 上清丹景道精隱地八術經
   identifiers:
@@ -33,11 +33,11 @@ editions:
 assets:
   parts:
   - {seq: 0, filename: KR5g0168_000.yaml, hash: 'sha256:097164ff1d0392baceedf0069f638f3aeb792ee1cf8c7346c02cd00d5d97a26b'}
-  - {seq: 1, filename: KR5g0168_001.yaml, hash: 'sha256:a237e8eb317a7f2187a1214c8aa1fc1a765ef6d5a8438baeec4c50617002ec1c'}
-  - {seq: 2, filename: KR5g0168_002.yaml, hash: 'sha256:09f935e1e9dd81fe32cf13a981db65ca1e5e3f5e14bedb0d9012a9e32125fac9'}
+  - {seq: 1, filename: KR5g0168_001.yaml, hash: 'sha256:1d05455ddb6c870dd200f344f1c9f4bb2f898f5ab270141c757b7b19b2b05af4'}
+  - {seq: 2, filename: KR5g0168_002.yaml, hash: 'sha256:8ce7029093d38f5b5bd9f0d67b4a9f8e13f56e4e8a437ee2e0a9e7f972cae80e'}
   markers:
-  - {seq: 1, role: markers, filename: assets/KR5g0168_001.markers.yaml, hash: 'sha256:208636e3117eb55ab47d1d496d1d050c7bf087d10c50df23182de1ff74aeb127'}
-  - {seq: 2, role: markers, filename: assets/KR5g0168_002.markers.yaml, hash: 'sha256:894ec28223198cf8dab015a182c02df6dc121250c78535d82d6686dbf98e110e'}
+  - {seq: 1, role: markers, filename: assets/KR5g0168_001.markers.yaml, hash: 'sha256:4dada44181c6ab568f7a4e6e00cbddced35aa97250ac39498633293fbcdb496e'}
+  - {seq: 2, role: markers, filename: assets/KR5g0168_002.markers.yaml, hash: 'sha256:6b38f1e7dbffe09ac172ef060ebf6db89ffcd2ddf2dee05c1c6e0bd773e48006'}
 table_of_contents:
 - ref:
     seq: 1
@@ -59,4 +59,7 @@ table_of_contents:
   label: juan 002
   type: section
   level: 1
-hash: sha256:906f316ac72588a2e02e3f961f4a09907d172a3babc5873101864c5f1c1f3323
+hash: sha256:ae4f954ad1a6184b4746dc31ba617c4d687d02ce13dd422a9be426fe5d425495
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:9bc9a4233a10ab6fe6494b31262c157187fd580f02a97cad91be81ccd48f7a20
